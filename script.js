@@ -18,13 +18,13 @@ for(var i=1;i<=n;i++){
         document.getElementById("root").appendChild(line2);
 
         const tam=document.createElement('h3');
-        tam.innerHTML="Tamil Explanation : ";
+        tam.innerHTML="Tamil : ";
         document.getElementById("root").appendChild(tam);
         const tamElement=document.createElement('p');
         tamElement.innerHTML=data.tam_exp;
         document.getElementById("root").appendChild(tamElement);
         const eng=document.createElement('h3');
-        eng.innerHTML="English Explanation : ";
+        eng.innerHTML="English Translation: ";
         document.getElementById("root").appendChild(eng);
         const engElement=document.createElement('p');
         engElement.innerHTML=data.eng;
